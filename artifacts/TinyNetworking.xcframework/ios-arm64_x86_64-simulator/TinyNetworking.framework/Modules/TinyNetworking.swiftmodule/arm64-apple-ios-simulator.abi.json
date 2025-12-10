@@ -1,0 +1,4164 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TinyNetworking",
+    "printedName": "TinyNetworking",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionManager",
+        "printedName": "URLSessionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sessionConfiguration",
+            "printedName": "sessionConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionConfiguration",
+                "printedName": "TinyNetworking.SessionConfiguration",
+                "usr": "s:14TinyNetworking20SessionConfigurationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvp",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionConfiguration",
+                    "printedName": "TinyNetworking.SessionConfiguration",
+                    "usr": "s:14TinyNetworking20SessionConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvg",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionConfiguration",
+                    "printedName": "TinyNetworking.SessionConfiguration",
+                    "usr": "s:14TinyNetworking20SessionConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvs",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0Cvs",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0CvM",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC20sessionConfigurationAA07SessionF0CvM",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pinnedCertificates",
+            "printedName": "pinnedCertificates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvp",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvg",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvs",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvs",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvM",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC18pinnedCertificatesSaySSGSgvM",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldAllowInvalidCertificates",
+            "printedName": "shouldAllowInvalidCertificates",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvp",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvg",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvs",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvs",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvM",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC30shouldAllowInvalidCertificatesSbvM",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(sessionConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionManager",
+                "printedName": "TinyNetworking.URLSessionManager",
+                "usr": "c:@M@TinyNetworking@objc(cs)URLSessionManager"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SessionConfiguration",
+                "printedName": "TinyNetworking.SessionConfiguration",
+                "usr": "s:14TinyNetworking20SessionConfigurationC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking17URLSessionManagerC20sessionConfigurationAcA07SessionF0C_tcfc",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC20sessionConfigurationAcA07SessionF0C_tcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "setPinnedPublicKeys",
+            "printedName": "setPinnedPublicKeys(keys:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking17URLSessionManagerC19setPinnedPublicKeys4keysySaySSG_tF",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC19setPinnedPublicKeys4keysySaySSG_tF",
+            "moduleName": "TinyNetworking",
+            "intro_tvOS": "10.3",
+            "intro_watchOS": "3.3",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.Response) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "TinyNetworking.Response",
+                    "usr": "s:14TinyNetworking8ResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking17URLSessionManagerC4send7request15progressHandler10completionyAA7RequestV_yAA18UploadProgressInfoVcSgyAA8ResponseVctF",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC4send7request15progressHandler10completionyAA7RequestV_yAA18UploadProgressInfoVcSgyAA8ResponseVctF",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<TinyNetworking.Response, Foundation.URLError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "TinyNetworking.Response",
+                    "usr": "s:14TinyNetworking8ResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLError",
+                    "printedName": "Foundation.URLError",
+                    "usr": "s:10Foundation8URLErrorV"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking17URLSessionManagerC4send7request15progressHandler7Combine12AnyPublisherVyAA8ResponseV10Foundation8URLErrorVGAA7RequestV_yAA18UploadProgressInfoVcSgtF",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC4send7request15progressHandler7Combine12AnyPublisherVyAA8ResponseV10Foundation8URLErrorVGAA7RequestV_yAA18UploadProgressInfoVcSgtF",
+            "moduleName": "TinyNetworking",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "TinyNetworking.Response",
+                "usr": "s:14TinyNetworking8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking17URLSessionManagerC4send7request15progressHandlerAA8ResponseVAA7RequestV_yAA18UploadProgressInfoVcSgtYaKF",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC4send7request15progressHandlerAA8ResponseVAA7RequestV_yAA18UploadProgressInfoVcSgtYaKF",
+            "moduleName": "TinyNetworking",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionManager",
+                "printedName": "TinyNetworking.URLSessionManager",
+                "usr": "c:@M@TinyNetworking@objc(cs)URLSessionManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@TinyNetworking@objc(cs)URLSessionManager(im)init",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerCACycfc",
+            "moduleName": "TinyNetworking",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:didReceive:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLAuthenticationChallenge",
+                "printedName": "Foundation.URLAuthenticationChallenge",
+                "usr": "c:objc(cs)NSURLAuthenticationChallenge"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AuthChallengeDisposition",
+                        "printedName": "Foundation.URLSession.AuthChallengeDisposition",
+                        "usr": "c:@E@NSURLSessionAuthChallengeDisposition"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.URLCredential?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "URLCredential",
+                            "printedName": "Foundation.URLCredential",
+                            "usr": "c:objc(cs)NSURLCredential"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TinyNetworking@objc(cs)URLSessionManager(im)URLSession:didReceiveChallenge:completionHandler:",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC10urlSession_10didReceive17completionHandlerySo12NSURLSessionC_So28NSURLAuthenticationChallengeCySo0k4AuthM11DispositionV_So15NSURLCredentialCSgtctF",
+            "moduleName": "TinyNetworking",
+            "objc_name": "URLSession:didReceiveChallenge:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "urlSession",
+            "printedName": "urlSession(_:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSession",
+                "printedName": "Foundation.URLSession",
+                "usr": "c:objc(cs)NSURLSession"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionTask",
+                "printedName": "Foundation.URLSessionTask",
+                "usr": "c:objc(cs)NSURLSessionTask"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@TinyNetworking@objc(cs)URLSessionManager(im)URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC10urlSession_4task15didSendBodyData14totalBytesSent0lm10ExpectedToI0ySo12NSURLSessionC_So0Q4TaskCs5Int64VA2NtF",
+            "moduleName": "TinyNetworking",
+            "objc_name": "URLSession:task:didSendBodyData:totalBytesSent:totalBytesExpectedToSend:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@TinyNetworking@objc(cs)URLSessionManager",
+        "mangledName": "$s14TinyNetworking17URLSessionManagerC",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "NetworkManagerProtocol",
+            "printedName": "NetworkManagerProtocol",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SessionConfiguration",
+        "printedName": "SessionConfiguration",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "baseURL",
+            "printedName": "baseURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvp",
+            "mangledName": "$s14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvg",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvs",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0Vvs",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0VvM",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7baseURL10Foundation0F0VvM",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvp",
+            "mangledName": "$s14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvg",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvs",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvs",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvM",
+                "mangledName": "$s14TinyNetworking20SessionConfigurationC7headersSDyS2SGSgvM",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(baseURL:headers:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionConfiguration",
+                "printedName": "TinyNetworking.SessionConfiguration",
+                "usr": "s:14TinyNetworking20SessionConfigurationC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking20SessionConfigurationC7baseURL7headersAC10Foundation0F0V_SDyS2SGSgtcfc",
+            "mangledName": "$s14TinyNetworking20SessionConfigurationC7baseURL7headersAC10Foundation0F0V_SDyS2SGSgtcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TinyNetworking20SessionConfigurationC",
+        "mangledName": "$s14TinyNetworking20SessionConfigurationC",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkManagerProtocol",
+        "printedName": "NetworkManagerProtocol",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "sessionConfiguration",
+            "printedName": "sessionConfiguration",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SessionConfiguration",
+                "printedName": "TinyNetworking.SessionConfiguration",
+                "usr": "s:14TinyNetworking20SessionConfigurationC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvp",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvp",
+            "moduleName": "TinyNetworking",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionConfiguration",
+                    "printedName": "TinyNetworking.SessionConfiguration",
+                    "usr": "s:14TinyNetworking20SessionConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvg",
+                "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvg",
+                "moduleName": "TinyNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionConfiguration",
+                    "printedName": "TinyNetworking.SessionConfiguration",
+                    "usr": "s:14TinyNetworking20SessionConfigurationC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvs",
+                "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0Cvs",
+                "moduleName": "TinyNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0CvM",
+                "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP20sessionConfigurationAA07SessionG0CvM",
+                "moduleName": "TinyNetworking",
+                "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+                "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+                "protocolReq": true,
+                "implicit": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.Response) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "TinyNetworking.Response",
+                    "usr": "s:14TinyNetworking8ResponseV"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandler10completionyAA7RequestV_yAA18UploadProgressInfoVcSgyAA8ResponseVctF",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandler10completionyAA7RequestV_yAA18UploadProgressInfoVcSgyAA8ResponseVctF",
+            "moduleName": "TinyNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<TinyNetworking.Response, Foundation.URLError>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Response",
+                    "printedName": "TinyNetworking.Response",
+                    "usr": "s:14TinyNetworking8ResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URLError",
+                    "printedName": "Foundation.URLError",
+                    "usr": "s:10Foundation8URLErrorV"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandler7Combine12AnyPublisherVyAA8ResponseV10Foundation8URLErrorVGAA7RequestV_yAA18UploadProgressInfoVcSgtF",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandler7Combine12AnyPublisherVyAA8ResponseV10Foundation8URLErrorVGAA7RequestV_yAA18UploadProgressInfoVcSgtF",
+            "moduleName": "TinyNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+            "protocolReq": true,
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(request:progressHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Response",
+                "printedName": "TinyNetworking.Response",
+                "usr": "s:14TinyNetworking8ResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((TinyNetworking.UploadProgressInfo) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(TinyNetworking.UploadProgressInfo) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UploadProgressInfo",
+                        "printedName": "TinyNetworking.UploadProgressInfo",
+                        "usr": "s:14TinyNetworking18UploadProgressInfoV"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandlerAA8ResponseVAA7RequestV_yAA18UploadProgressInfoVcSgtYaKF",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP4send7request15progressHandlerAA8ResponseVAA7RequestV_yAA18UploadProgressInfoVcSgtYaKF",
+            "moduleName": "TinyNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : TinyNetworking.NetworkManagerProtocol>",
+            "sugared_genericSig": "<Self where Self : TinyNetworking.NetworkManagerProtocol>",
+            "protocolReq": true,
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:14TinyNetworking22NetworkManagerProtocolP",
+        "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MobileCoreServices",
+        "printedName": "MobileCoreServices",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Request",
+        "printedName": "Request",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "endpoint",
+            "printedName": "endpoint",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV8endpointSSvp",
+            "mangledName": "$s14TinyNetworking7RequestV8endpointSSvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV8endpointSSvg",
+                "mangledName": "$s14TinyNetworking7RequestV8endpointSSvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "method",
+            "printedName": "method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "TinyNetworking.HTTPMethod",
+                "usr": "s:14TinyNetworking10HTTPMethodO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV6methodAA10HTTPMethodOvp",
+            "mangledName": "$s14TinyNetworking7RequestV6methodAA10HTTPMethodOvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV6methodAA10HTTPMethodOvg",
+                "mangledName": "$s14TinyNetworking7RequestV6methodAA10HTTPMethodOvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "queryParameters",
+            "printedName": "queryParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV15queryParametersSDyS2SGSgvp",
+            "mangledName": "$s14TinyNetworking7RequestV15queryParametersSDyS2SGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV15queryParametersSDyS2SGSgvg",
+                "mangledName": "$s14TinyNetworking7RequestV15queryParametersSDyS2SGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "headers",
+            "printedName": "headers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV7headersSDyS2SGSgvp",
+            "mangledName": "$s14TinyNetworking7RequestV7headersSDyS2SGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Swift.String]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Swift.String]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV7headersSDyS2SGSgvg",
+                "mangledName": "$s14TinyNetworking7RequestV7headersSDyS2SGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "body",
+            "printedName": "body",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV4bodyypSgvp",
+            "mangledName": "$s14TinyNetworking7RequestV4bodyypSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Any?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV4bodyypSgvg",
+                "mangledName": "$s14TinyNetworking7RequestV4bodyypSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fileParameters",
+            "printedName": "fileParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TinyNetworking.FileUploadData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TinyNetworking.FileUploadData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileUploadData",
+                        "printedName": "TinyNetworking.FileUploadData",
+                        "usr": "s:14TinyNetworking14FileUploadDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV14fileParametersSayAA14FileUploadDataVGSgvp",
+            "mangledName": "$s14TinyNetworking7RequestV14fileParametersSayAA14FileUploadDataVGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[TinyNetworking.FileUploadData]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[TinyNetworking.FileUploadData]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FileUploadData",
+                            "printedName": "TinyNetworking.FileUploadData",
+                            "usr": "s:14TinyNetworking14FileUploadDataV"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV14fileParametersSayAA14FileUploadDataVGSgvg",
+                "mangledName": "$s14TinyNetworking7RequestV14fileParametersSayAA14FileUploadDataVGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "shouldEncodeQueryParameters",
+            "printedName": "shouldEncodeQueryParameters",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking7RequestV27shouldEncodeQueryParametersSbvp",
+            "mangledName": "$s14TinyNetworking7RequestV27shouldEncodeQueryParametersSbvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking7RequestV27shouldEncodeQueryParametersSbvg",
+                "mangledName": "$s14TinyNetworking7RequestV27shouldEncodeQueryParametersSbvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(endpoint:method:queryParameters:headers:bodyParameters:fileParameters:shouldEncodeQueryParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "TinyNetworking.HTTPMethod",
+                "usr": "s:14TinyNetworking10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TinyNetworking.FileUploadData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TinyNetworking.FileUploadData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileUploadData",
+                        "printedName": "TinyNetworking.FileUploadData",
+                        "usr": "s:14TinyNetworking14FileUploadDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking7RequestV8endpoint6method15queryParameters7headers04bodyG004fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANSDySSypGSgSayAA14FileUploadDataVGSgSbtcfc",
+            "mangledName": "$s14TinyNetworking7RequestV8endpoint6method15queryParameters7headers04bodyG004fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANSDySSypGSgSayAA14FileUploadDataVGSgSbtcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(endpoint:method:queryParameters:headers:body:fileParameters:shouldEncodeQueryParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "TinyNetworking.HTTPMethod",
+                "usr": "s:14TinyNetworking10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Any?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TinyNetworking.FileUploadData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TinyNetworking.FileUploadData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileUploadData",
+                        "printedName": "TinyNetworking.FileUploadData",
+                        "usr": "s:14TinyNetworking14FileUploadDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking7RequestV8endpoint6method15queryParameters7headers4body04fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANypSgSayAA14FileUploadDataVGSgSbtcfc",
+            "mangledName": "$s14TinyNetworking7RequestV8endpoint6method15queryParameters7headers4body04fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANypSgSayAA14FileUploadDataVGSgSbtcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(endpoint:method:queryParameters:headers:body:fileParameters:shouldEncodeQueryParameters:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Request",
+                "printedName": "TinyNetworking.Request",
+                "usr": "s:14TinyNetworking7RequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPMethod",
+                "printedName": "TinyNetworking.HTTPMethod",
+                "usr": "s:14TinyNetworking10HTTPMethodO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[TinyNetworking.FileUploadData]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[TinyNetworking.FileUploadData]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "FileUploadData",
+                        "printedName": "TinyNetworking.FileUploadData",
+                        "usr": "s:14TinyNetworking14FileUploadDataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking7RequestV8endpoint6method15queryParameters7headers4body04fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANxSayAA14FileUploadDataVGSgSbtcSERzlufc",
+            "mangledName": "$s14TinyNetworking7RequestV8endpoint6method15queryParameters7headers4body04fileG0017shouldEncodeQueryG0ACSS_AA10HTTPMethodOSDyS2SGSgANxSayAA14FileUploadDataVGSgSbtcSERzlufc",
+            "moduleName": "TinyNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Encodable>",
+            "sugared_genericSig": "<T where T : Swift.Encodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14TinyNetworking7RequestV",
+        "mangledName": "$s14TinyNetworking7RequestV",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FileUploadData",
+        "printedName": "FileUploadData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "fileName",
+            "printedName": "fileName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking14FileUploadDataV8fileNameSSvp",
+            "mangledName": "$s14TinyNetworking14FileUploadDataV8fileNameSSvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking14FileUploadDataV8fileNameSSvg",
+                "mangledName": "$s14TinyNetworking14FileUploadDataV8fileNameSSvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "parameterName",
+            "printedName": "parameterName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking14FileUploadDataV13parameterNameSSvp",
+            "mangledName": "$s14TinyNetworking14FileUploadDataV13parameterNameSSvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking14FileUploadDataV13parameterNameSSvg",
+                "mangledName": "$s14TinyNetworking14FileUploadDataV13parameterNameSSvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking14FileUploadDataV4data10Foundation0E0Vvp",
+            "mangledName": "$s14TinyNetworking14FileUploadDataV4data10Foundation0E0Vvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking14FileUploadDataV4data10Foundation0E0Vvg",
+                "mangledName": "$s14TinyNetworking14FileUploadDataV4data10Foundation0E0Vvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(fileName:parameterName:data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FileUploadData",
+                "printedName": "TinyNetworking.FileUploadData",
+                "usr": "s:14TinyNetworking14FileUploadDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking14FileUploadDataV8fileName09parameterG04dataACSS_SS10Foundation0E0Vtcfc",
+            "mangledName": "$s14TinyNetworking14FileUploadDataV8fileName09parameterG04dataACSS_SS10Foundation0E0Vtcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14TinyNetworking14FileUploadDataV",
+        "mangledName": "$s14TinyNetworking14FileUploadDataV",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Response",
+        "printedName": "Response",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV4data10Foundation4DataVSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV4data10Foundation4DataVSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV4data10Foundation4DataVSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV4data10Foundation4DataVSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "statusCode",
+            "printedName": "statusCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV10statusCodeSiSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV10statusCodeSiSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Int?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV10statusCodeSiSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV10statusCodeSiSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "allHeaderFields",
+            "printedName": "allHeaderFields",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.AnyHashable : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV15allHeaderFieldsSDys11AnyHashableVypGSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV15allHeaderFieldsSDys11AnyHashableVypGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.AnyHashable : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.AnyHashable : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "AnyHashable",
+                            "printedName": "Swift.AnyHashable",
+                            "usr": "s:s11AnyHashableV"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV15allHeaderFieldsSDys11AnyHashableVypGSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV15allHeaderFieldsSDys11AnyHashableVypGSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV5errors5Error_pSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV5errors5Error_pSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Swift.Error)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV5errors5Error_pSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV5errors5Error_pSgvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseJSON",
+            "printedName": "responseJSON",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV12responseJSONSDySSypGSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV12responseJSONSDySSypGSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[Swift.String : Any]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Dictionary",
+                        "printedName": "[Swift.String : Any]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "String",
+                            "printedName": "Swift.String",
+                            "usr": "s:SS"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "Any"
+                          }
+                        ],
+                        "usr": "s:SD"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV12responseJSONSDySSypGSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV12responseJSONSDySSypGSgvg",
+                "moduleName": "TinyNetworking",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseString",
+            "printedName": "responseString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking8ResponseV14responseStringSSSgvp",
+            "mangledName": "$s14TinyNetworking8ResponseV14responseStringSSSgvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking8ResponseV14responseStringSSSgvg",
+                "mangledName": "$s14TinyNetworking8ResponseV14responseStringSSSgvg",
+                "moduleName": "TinyNetworking",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "responseModel",
+            "printedName": "responseModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "τ_0_0?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "GenericTypeParam",
+                    "printedName": "τ_0_0"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:14TinyNetworking8ResponseV13responseModelxSgyKSeRzlF",
+            "mangledName": "$s14TinyNetworking8ResponseV13responseModelxSgyKSeRzlF",
+            "moduleName": "TinyNetworking",
+            "genericSig": "<τ_0_0 where τ_0_0 : Swift.Decodable>",
+            "sugared_genericSig": "<T where T : Swift.Decodable>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14TinyNetworking8ResponseV",
+        "mangledName": "$s14TinyNetworking8ResponseV",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HTTPMethod",
+        "printedName": "HTTPMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "options",
+            "printedName": "options",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO7optionsyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO7optionsyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO3getyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO3getyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "head",
+            "printedName": "head",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO4headyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO4headyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO4postyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO4postyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO3putyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO3putyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO5patchyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO5patchyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO6deleteyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO6deleteyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "trace",
+            "printedName": "trace",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO5traceyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO5traceyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Var",
+            "name": "connect",
+            "printedName": "connect",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(TinyNetworking.HTTPMethod.Type) -> TinyNetworking.HTTPMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "TinyNetworking.HTTPMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPMethod",
+                        "printedName": "TinyNetworking.HTTPMethod",
+                        "usr": "s:14TinyNetworking10HTTPMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:14TinyNetworking10HTTPMethodO7connectyA2CmF",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO7connectyA2CmF",
+            "moduleName": "TinyNetworking"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "TinyNetworking.HTTPMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPMethod",
+                    "printedName": "TinyNetworking.HTTPMethod",
+                    "usr": "s:14TinyNetworking10HTTPMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking10HTTPMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "TinyNetworking",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking10HTTPMethodO8rawValueSSvp",
+            "mangledName": "$s14TinyNetworking10HTTPMethodO8rawValueSSvp",
+            "moduleName": "TinyNetworking",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking10HTTPMethodO8rawValueSSvg",
+                "mangledName": "$s14TinyNetworking10HTTPMethodO8rawValueSSvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:14TinyNetworking10HTTPMethodO",
+        "mangledName": "$s14TinyNetworking10HTTPMethodO",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CommonCrypto",
+        "printedName": "CommonCrypto",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UploadProgressInfo",
+        "printedName": "UploadProgressInfo",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "didSendBodyData",
+            "printedName": "didSendBodyData",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking18UploadProgressInfoV15didSendBodyDatas5Int64Vvp",
+            "mangledName": "$s14TinyNetworking18UploadProgressInfoV15didSendBodyDatas5Int64Vvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking18UploadProgressInfoV15didSendBodyDatas5Int64Vvg",
+                "mangledName": "$s14TinyNetworking18UploadProgressInfoV15didSendBodyDatas5Int64Vvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalBytesSent",
+            "printedName": "totalBytesSent",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking18UploadProgressInfoV14totalBytesSents5Int64Vvp",
+            "mangledName": "$s14TinyNetworking18UploadProgressInfoV14totalBytesSents5Int64Vvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking18UploadProgressInfoV14totalBytesSents5Int64Vvg",
+                "mangledName": "$s14TinyNetworking18UploadProgressInfoV14totalBytesSents5Int64Vvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "totalBytesExpectedToSend",
+            "printedName": "totalBytesExpectedToSend",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking18UploadProgressInfoV24totalBytesExpectedToSends5Int64Vvp",
+            "mangledName": "$s14TinyNetworking18UploadProgressInfoV24totalBytesExpectedToSends5Int64Vvp",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking18UploadProgressInfoV24totalBytesExpectedToSends5Int64Vvg",
+                "mangledName": "$s14TinyNetworking18UploadProgressInfoV24totalBytesExpectedToSends5Int64Vvg",
+                "moduleName": "TinyNetworking",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(didSendBodyData:totalBytesSent:totalBytesExpectedToSend:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UploadProgressInfo",
+                "printedName": "TinyNetworking.UploadProgressInfo",
+                "usr": "s:14TinyNetworking18UploadProgressInfoV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14TinyNetworking18UploadProgressInfoV15didSendBodyData14totalBytesSent0jk10ExpectedToG0ACs5Int64V_A2Htcfc",
+            "mangledName": "$s14TinyNetworking18UploadProgressInfoV15didSendBodyData14totalBytesSent0jk10ExpectedToG0ACs5Int64V_A2Htcfc",
+            "moduleName": "TinyNetworking",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:14TinyNetworking18UploadProgressInfoV",
+        "mangledName": "$s14TinyNetworking18UploadProgressInfoV",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworking",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 574,
+      "length": 21,
+      "value": "\"HTTP response error\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 643,
+      "length": 15,
+      "value": "\"HTTP response\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 720,
+      "length": 31,
+      "value": "\"Invalid session configuration\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 817,
+      "length": 5,
+      "value": "\"der\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1800,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2681,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3629,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "kind": "StringLiteral",
+      "offset": 497,
+      "length": 3,
+      "value": "\"=\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 3,
+      "value": "\"&\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1210,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 426,
+      "length": 9,
+      "value": "\"OPTIONS\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 451,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 473,
+      "length": 6,
+      "value": "\"HEAD\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 518,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 593,
+      "length": 7,
+      "value": "\"TRACE\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "kind": "StringLiteral",
+      "offset": 620,
+      "length": 9,
+      "value": "\"CONNECT\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 492,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 542,
+      "length": 16,
+      "value": "\"Content-Length\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 599,
+      "length": 21,
+      "value": "\"Content-Disposition\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 22,
+      "value": "\"multipart\/form-data;\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 832,
+      "length": 50,
+      "value": "\"application\/x-www-form-urlencoded; charset=utf-8\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 21,
+      "value": "\"application\/x-plist\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1016,
+      "length": 10,
+      "value": "\"boundary\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1061,
+      "length": 11,
+      "value": "\"form-data\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1112,
+      "length": 6,
+      "value": "\"name\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "kind": "StringLiteral",
+      "offset": 1153,
+      "length": 10,
+      "value": "\"filename\""
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/Data+CTN.swift",
+      "kind": "Array",
+      "offset": 573,
+      "length": 166,
+      "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
+    },
+    {
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/ServerTrustPolicy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+framework module TinyNetworking {
+  header "TinyNetworking-Swift.h"
+  requires objc
+}
