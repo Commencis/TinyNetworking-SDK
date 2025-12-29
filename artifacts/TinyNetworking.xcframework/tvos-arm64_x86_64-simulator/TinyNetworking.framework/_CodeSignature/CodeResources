@@ -6,15 +6,15 @@
 	<dict>
 		<key>Headers/TinyNetworking-Swift.h</key>
 		<data>
-		bKQcnwoo6Z9XtljZWTeK0UYg9Hk=
+		Kr7q2sY4Lr22OYJazo8WZbJJWFU=
 		</data>
 		<key>Headers/TinyNetworkingTV.h</key>
 		<data>
-		XmJMQVLuo/l7b5HWEmVHVsHnxTM=
+		Tjb0a1oK2kxc6Zph1bYMhNA8b8U=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dcF30Lvn0BeukJjNvvJkQmwDHwU=
+		w3uJgQ88qJ7s4Z7pB2HVxL1PDiw=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		QLriwdg9FKihKwwoFR7+YJqyCTM=
+		av1XoeVvLpkCSGe0WtOfIRdcGcE=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		pIMUbPEOuzF1O04dlYldjqoZLos=
+		UfLwfEAiEc8wwgbbug84cG30hNg=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		QLriwdg9FKihKwwoFR7+YJqyCTM=
+		av1XoeVvLpkCSGe0WtOfIRdcGcE=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		fSBfWbuKt/jA9iHsLVMWqSKc5r8=
+		+zLf2Y960lARqdsETtWasNAhY58=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
@@ -42,19 +42,19 @@
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		yg10fyBy06Eb9nly2yVNl39TSP4=
+		VfIdvGLBdrs78BpWBGhe2bwIhD8=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		y0+DeV1EKLBOuNwRTiYm1aPaiPY=
+		w7Vox391Gi4xD7B8lq1gbk/JDTc=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		yg10fyBy06Eb9nly2yVNl39TSP4=
+		VfIdvGLBdrs78BpWBGhe2bwIhD8=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<data>
-		u7zu/BY9HKVI1SCiBj1QRrhoHMg=
+		+xPU28YjN+uvjwsJTU17E6M/hlA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,14 +67,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lqLlxe46Lj/TTAcCKo5vDpwVJ3TZo0xtG9aDJ50QbIY=
+			EZRzpjhkA5otmHdnRhUSAv8UU4oNqaSG5SRIW0p9fk0=
 			</data>
 		</dict>
 		<key>Headers/TinyNetworkingTV.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gIai+3A7dq4htvHhoarl499x6e0f3CbZBR5AAsYpdB0=
+			UQZDMQG0Sz+F/hHaI7yCHBzylzp1b1SpQjwVDWWCHDY=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
@@ -88,28 +88,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzITYWdQomJIGLEcDv6uwJPpnYQDlDFnwpBxT9TXBCw=
+			1mkYjTla5k/TGC7p9RneHHcX/rHloMZMU/mdkpF7mJs=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7pVnWVaqxlp11so6F8aj6axvUTZ/g7tcJxPQS2eNa+8=
+			7EWTIYRy/Mrs2jtlaOdWllZSPzbu0UQXS7UGN0YSpts=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FzITYWdQomJIGLEcDv6uwJPpnYQDlDFnwpBxT9TXBCw=
+			1mkYjTla5k/TGC7p9RneHHcX/rHloMZMU/mdkpF7mJs=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z0Lbl/Zrn2Ax11I9O+EcTgz8yXgdTafa9j5QVBW39p4=
+			TfsOkbkv0TmZwSz3KVmcqqcFicW88bO6PovkbSkDTjc=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
@@ -123,28 +123,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AMR/bbhWRgX28W2om4uQw2PKaCesLJaLpkofoZW1Dw=
+			K6OYzJiPDMsDjd1OzatlrafDVua4TQThsQ+qjcY2VxM=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6AvFuAnUKKy6RivRwFuG4lCBI5DMggcpOyvfF/yvImw=
+			OUa32zxz25R+d/WPltdQLk7EcddWLS8Rh3qfxUJMD3g=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8AMR/bbhWRgX28W2om4uQw2PKaCesLJaLpkofoZW1Dw=
+			K6OYzJiPDMsDjd1OzatlrafDVua4TQThsQ+qjcY2VxM=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-tvos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IuCq91bkjfDLf69HESFj3uuz30ZC/kfeg9WCMWNjsJA=
+			/XJpWMel+UK4oghQMyHGspV+uevYyN+RztgztS2O2sY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

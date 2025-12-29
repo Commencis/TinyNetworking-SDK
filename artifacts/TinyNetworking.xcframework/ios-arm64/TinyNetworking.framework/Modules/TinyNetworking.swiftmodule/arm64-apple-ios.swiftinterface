@@ -1,19 +1,25 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name TinyNetworking
+// swift-compiler-version: Apple Swift version 6.0.2 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -module-name TinyNetworking
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
-import Combine
 import CommonCrypto
 import CryptoKit
 import Foundation
-import MobileCoreServices
+import Security
 import Swift
 @_exported import TinyNetworking
+import UniformTypeIdentifiers
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@objc public class URLSessionManager : ObjectiveC.NSObject, TinyNetworking.NetworkManagerProtocol, @unchecked Swift.Sendable {
-  public var sessionConfiguration: TinyNetworking.SessionConfiguration
+public enum NetworkError : Foundation.LocalizedError, Swift.Sendable {
+  case badURL
+  case unkown(Swift.String)
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+public actor URLSessionManager : TinyNetworking.NetworkManagerProtocol {
   public var pinnedCertificates: [Swift.String]? {
     get
     set
@@ -22,60 +28,69 @@ import _SwiftConcurrencyShims
     get
     set
   }
+  public var sessionConfiguration: TinyNetworking.SessionConfiguration {
+    get
+  }
   public init(sessionConfiguration: TinyNetworking.SessionConfiguration)
-  @available(tvOS 10.3, watchOS 3.3, *)
-  public func setPinnedPublicKeys(keys: [Swift.String])
-  public func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler? = nil, completion: @escaping (TinyNetworking.Response) -> Swift.Void)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-  public func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler? = nil) -> Combine.AnyPublisher<TinyNetworking.Response, Foundation.URLError>
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-  public func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler? = nil) async throws -> TinyNetworking.Response
+  public func updateSessionConfiguration(_ configuration: TinyNetworking.SessionConfiguration) async
+  public func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler?) async throws -> TinyNetworking.Response
+  public func setPinnedCertificates(_ certificates: [Swift.String]?)
+  public func setPinnedPublicKeyHashes(_ hashes: [Swift.String]?)
+  public func setAllowInvalidCertificates(_ allow: Swift.Bool)
   @objc deinit
+  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
+  @_semantics("defaultActor") nonisolated final public var unownedExecutor: _Concurrency.UnownedSerialExecutor {
+    get
+  }
 }
-extension TinyNetworking.URLSessionManager : Foundation.URLSessionDelegate {
-  @objc dynamic public func urlSession(_: Foundation.URLSession, didReceive challenge: Foundation.URLAuthenticationChallenge, completionHandler: @escaping (Foundation.URLSession.AuthChallengeDisposition, Foundation.URLCredential?) -> Swift.Void)
-}
-extension TinyNetworking.URLSessionManager : Foundation.URLSessionTaskDelegate {
-  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didSendBodyData bytesSent: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
-}
-public class SessionConfiguration : @unchecked Swift.Sendable {
+public struct SessionConfiguration : Swift.Sendable {
   public var baseURL: Foundation.URL
   public var headers: [Swift.String : Swift.String]?
-  public init(baseURL: Foundation.URL, headers: [Swift.String : Swift.String]? = nil)
-  @objc deinit
+  public var urlSessionConfiguration: Foundation.URLSessionConfiguration
+  public init(baseURL: Foundation.URL, headers: [Swift.String : Swift.String]? = nil, urlSessionConfiguration: Foundation.URLSessionConfiguration = .default)
 }
-public typealias UploadProgressHandler = (_ progress: TinyNetworking.UploadProgressInfo) -> Swift.Void
-public protocol NetworkManagerProtocol {
-  var sessionConfiguration: TinyNetworking.SessionConfiguration { get set }
-  func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler?, completion: @escaping (TinyNetworking.Response) -> Swift.Void)
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
-  func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler?) -> Combine.AnyPublisher<TinyNetworking.Response, Foundation.URLError>
-  @available(iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+public typealias UploadProgressHandler = @Sendable (_ progress: TinyNetworking.UploadProgressInfo) -> Swift.Void
+public protocol NetworkManagerProtocol : AnyObject {
+  var sessionConfiguration: TinyNetworking.SessionConfiguration { get async }
+  func updateSessionConfiguration(_ configuration: TinyNetworking.SessionConfiguration) async
   func send(request: TinyNetworking.Request, progressHandler: TinyNetworking.UploadProgressHandler?) async throws -> TinyNetworking.Response
+  func send(request: TinyNetworking.Request) async throws -> TinyNetworking.Response
 }
-public struct Request {
+extension TinyNetworking.NetworkManagerProtocol {
+  public func send(request: TinyNetworking.Request) async throws -> TinyNetworking.Response
+}
+public struct Request : Swift.Sendable {
   public let endpoint: Swift.String
   public let method: TinyNetworking.HTTPMethod
   public let queryParameters: [Swift.String : Swift.String]?
   public let headers: [Swift.String : Swift.String]?
-  public let body: Any?
+  public let body: Foundation.Data?
   public let fileParameters: [TinyNetworking.FileUploadData]?
   public let shouldEncodeQueryParameters: Swift.Bool
   public init(endpoint: Swift.String, method: TinyNetworking.HTTPMethod, queryParameters: [Swift.String : Swift.String]? = nil, headers: [Swift.String : Swift.String]? = nil, bodyParameters: [Swift.String : Any]? = nil, fileParameters: [TinyNetworking.FileUploadData]? = nil, shouldEncodeQueryParameters: Swift.Bool = false)
-  public init(endpoint: Swift.String, method: TinyNetworking.HTTPMethod, queryParameters: [Swift.String : Swift.String]? = nil, headers: [Swift.String : Swift.String]? = nil, body: Any? = nil, fileParameters: [TinyNetworking.FileUploadData]? = nil, shouldEncodeQueryParameters: Swift.Bool = false)
+  public init(endpoint: Swift.String, method: TinyNetworking.HTTPMethod, queryParameters: [Swift.String : Swift.String]? = nil, headers: [Swift.String : Swift.String]? = nil, body: Foundation.Data? = nil, fileParameters: [TinyNetworking.FileUploadData]? = nil, shouldEncodeQueryParameters: Swift.Bool = false)
   public init<T>(endpoint: Swift.String, method: TinyNetworking.HTTPMethod, queryParameters: [Swift.String : Swift.String]? = nil, headers: [Swift.String : Swift.String]? = nil, body: T, fileParameters: [TinyNetworking.FileUploadData]? = nil, shouldEncodeQueryParameters: Swift.Bool = false) where T : Swift.Encodable
 }
-public struct FileUploadData {
+public struct FileUploadData : Swift.Sendable {
   public let fileName: Swift.String
   public let parameterName: Swift.String
   public let data: Foundation.Data
   public init(fileName: Swift.String, parameterName: Swift.String, data: Foundation.Data)
 }
-public struct Response {
+public enum CertificateError : Swift.Error, Swift.Sendable {
+  case missingKey
+  case trustCreationFailed
+  public static func == (a: TinyNetworking.CertificateError, b: TinyNetworking.CertificateError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct Response : Swift.Sendable {
   public let data: Foundation.Data?
   public let statusCode: Swift.Int?
-  public let allHeaderFields: [Swift.AnyHashable : Any]?
-  public let error: (any Swift.Error)?
+  public let headers: [Swift.String : Swift.String]?
+  public let error: TinyNetworking.NetworkError?
   public var responseJSON: [Swift.String : Any]? {
     get
   }
@@ -84,7 +99,7 @@ public struct Response {
   }
   public func responseModel<T>() throws -> T? where T : Swift.Decodable
 }
-public enum HTTPMethod : Swift.String {
+public enum HTTPMethod : Swift.String, Swift.Sendable {
   case options
   case get
   case head
@@ -100,12 +115,14 @@ public enum HTTPMethod : Swift.String {
     get
   }
 }
-public struct UploadProgressInfo {
+public struct UploadProgressInfo : Swift.Sendable {
   public let didSendBodyData: Swift.Int64
   public let totalBytesSent: Swift.Int64
   public let totalBytesExpectedToSend: Swift.Int64
   public init(didSendBodyData: Swift.Int64, totalBytesSent: Swift.Int64, totalBytesExpectedToSend: Swift.Int64)
 }
+extension TinyNetworking.CertificateError : Swift.Equatable {}
+extension TinyNetworking.CertificateError : Swift.Hashable {}
 extension TinyNetworking.HTTPMethod : Swift.Equatable {}
 extension TinyNetworking.HTTPMethod : Swift.Hashable {}
 extension TinyNetworking.HTTPMethod : Swift.RawRepresentable {}

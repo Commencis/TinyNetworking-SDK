@@ -6,55 +6,55 @@
 	<dict>
 		<key>Headers/TinyNetworking-Swift.h</key>
 		<data>
-		UC5trtS/T2hzWUUCP2R6rpoi3Uc=
+		CbuFx7M0nHso1cbTCddudQJtjz0=
 		</data>
 		<key>Headers/TinyNetworking.h</key>
 		<data>
-		2Zi1SMj6p36438LiNLNLJLhjguk=
+		1fyaHwDiavHqMKSzmQk+zwZ+kWQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		XZCErtK3odv6HM743J7ks+v7mmI=
+		LSup0dBbptLlIcfvwE085zT1BFk=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		i9QqIzBN7QK2ehR2ZAdMWnKKq2I=
+		OtgLvoOeGYONCD0LxkIBLW5nKIE=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		CD62VZP2i0FJcsL/uhSjcIKBI/o=
+		/y6I10RktrTfa7EFq7uA2/9Aqgk=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		O7rrFWQ6c1wN0QngC2ts+cXpUBw=
+		x9zNHCyT7moNMNrqf1ict7UAx6s=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		CD62VZP2i0FJcsL/uhSjcIKBI/o=
+		/y6I10RktrTfa7EFq7uA2/9Aqgk=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		xvctw4N1L9pCUw2YhPBgPKChIGE=
+		A65V6UO7NegcWxos17IuBuYAWGA=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		i9QqIzBN7QK2ehR2ZAdMWnKKq2I=
+		OtgLvoOeGYONCD0LxkIBLW5nKIE=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kfHsSbq3p2J05Zn8TS/hWrlXt50=
+		Jb8b2QV2yDGAQNCT6SNCQ2/8E+Q=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jVvX3s4E4y3XnMvtvS+qWDZjx44=
+		AIvJkKGh1DZO9RDbl8N0y9gFrjo=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kfHsSbq3p2J05Zn8TS/hWrlXt50=
+		Jb8b2QV2yDGAQNCT6SNCQ2/8E+Q=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LC3CvnjbjfDrBzXOjVqAHwzNv3s=
+		5IpmAHB9shzocaXpr4fp54tNa+I=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -67,84 +67,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7RVQ8/mW96GoSk5SwZM7x9Zg1yV/Al5pT+nSfa+HHgE=
+			RP5HDPi4RBMmCOiAAvMACwpKkG29sjuN21P3qmdLUKc=
 			</data>
 		</dict>
 		<key>Headers/TinyNetworking.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QDnVgGT+Z0BtdmP8V/3k5/M9nTMgQMySzWA1bDgSmGI=
+			Y9Wp4RZ7m43kpBi1DbmqOd1VQxG415QN7uZ2iRLXmO8=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaHfHrhpR8wSjsYna/WvKUqxXp8O0u071+sOvGy2j0o=
+			b8TMH2Pla7ibQFtbm7p/EVNUUDm2wMWOli9sub0X7jw=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iT3SjM6swy2xuhWXi8BkAt0TqvGFsL4yvb2H4L5FLao=
+			QYdAbeap8X9OqwHlyNn9FBTfO3mqr1e3rxK6ZNczLA0=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			k3xbyPirvikowAQBpYKISkuIzG0gBqG+XYD2/tGLVGA=
+			cxlxS3lR2TiifWOYzKv23bIr7FeC/ZZ6eDNGgRp8bKo=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iT3SjM6swy2xuhWXi8BkAt0TqvGFsL4yvb2H4L5FLao=
+			QYdAbeap8X9OqwHlyNn9FBTfO3mqr1e3rxK6ZNczLA0=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vk6/ZUPV+xBEePen2FUzBAKxCNBrghxWd4oy5JhQGFY=
+			ZA7+vtKqvc8lMxk7GXIv598s/iBwv8+2qUHadxSUIkw=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DaHfHrhpR8wSjsYna/WvKUqxXp8O0u071+sOvGy2j0o=
+			b8TMH2Pla7ibQFtbm7p/EVNUUDm2wMWOli9sub0X7jw=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiAaHL6mMLTWgJrHGpbkyGhOsVCnPcDTaCXHBvhucuc=
+			d43/5aOmylU/Ebp2z2PNWzCOMb4fxsXOBzkJicCBXec=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JeJxmPpvcUdnoNyUT1Ptnnv4UURbpWYOOo0CsL6ecT8=
+			fFseYGWX7xL6l3Mkle21pvI1UqeYrvprXR4C4jINIjo=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BiAaHL6mMLTWgJrHGpbkyGhOsVCnPcDTaCXHBvhucuc=
+			d43/5aOmylU/Ebp2z2PNWzCOMb4fxsXOBzkJicCBXec=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WYz96A9NIJghSJ3+GtLPr5/TzUBd/qUEri5zFVuRnU0=
+			zH5Lq2nmqwp+8qeUY6bhALgdl0haKYcg07u93ARLGKM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

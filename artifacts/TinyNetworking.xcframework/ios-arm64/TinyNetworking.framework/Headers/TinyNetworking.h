@@ -10,7 +10,7 @@
 //  Any reproduction of this material must contain this notice.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 //! Project version number for TinyNetworking.
 FOUNDATION_EXPORT double TinyNetworkingVersionNumber;
@@ -19,5 +19,4 @@ FOUNDATION_EXPORT double TinyNetworkingVersionNumber;
 FOUNDATION_EXPORT const unsigned char TinyNetworkingVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TinyNetworking/PublicHeader.h>
-
 

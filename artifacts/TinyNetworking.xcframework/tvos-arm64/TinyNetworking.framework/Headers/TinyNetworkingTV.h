@@ -10,7 +10,7 @@
 //  Any reproduction of this material must contain this notice.
 //
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 //! Project version number for TinyNetworkingTV.
 FOUNDATION_EXPORT double TinyNetworkingTVVersionNumber;
@@ -19,5 +19,4 @@ FOUNDATION_EXPORT double TinyNetworkingTVVersionNumber;
 FOUNDATION_EXPORT const unsigned char TinyNetworkingTVVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TinyNetworkingTV/PublicHeader.h>
-
 

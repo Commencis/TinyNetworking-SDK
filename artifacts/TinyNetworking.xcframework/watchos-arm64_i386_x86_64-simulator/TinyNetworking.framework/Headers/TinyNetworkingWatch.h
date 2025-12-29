@@ -10,7 +10,7 @@
 //  Any reproduction of this material must contain this notice.
 //
 
-@import WatchKit;
+#import <WatchKit/WatchKit.h>
 
 //! Project version number for TinyNetworkingWatch.
 FOUNDATION_EXPORT double TinyNetworkingWatchVersionNumber;
@@ -19,5 +19,4 @@ FOUNDATION_EXPORT double TinyNetworkingWatchVersionNumber;
 FOUNDATION_EXPORT const unsigned char TinyNetworkingWatchVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <TinyNetworkingWatch/PublicHeader.h>
-
 
