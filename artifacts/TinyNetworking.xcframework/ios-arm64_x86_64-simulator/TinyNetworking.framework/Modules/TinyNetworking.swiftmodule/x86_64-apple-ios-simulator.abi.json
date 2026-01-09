@@ -4171,217 +4171,217 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
       "kind": "StringLiteral",
       "offset": 465,
       "length": 5,
       "value": "\"der\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/URL Session\/URLSessionManager.swift",
       "kind": "BooleanLiteral",
       "offset": 998,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
       "kind": "BooleanLiteral",
       "offset": 1714,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
       "kind": "BooleanLiteral",
       "offset": 2642,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/Request.swift",
       "kind": "BooleanLiteral",
       "offset": 3472,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
       "kind": "StringLiteral",
       "offset": 497,
       "length": 3,
       "value": "\"=\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
       "kind": "StringLiteral",
       "offset": 549,
       "length": 3,
       "value": "\"&\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Extensions\/URLRequest+CTN.swift",
       "kind": "BooleanLiteral",
       "offset": 1208,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 436,
       "length": 9,
       "value": "\"OPTIONS\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 461,
       "length": 5,
       "value": "\"GET\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 483,
       "length": 6,
       "value": "\"HEAD\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 506,
       "length": 6,
       "value": "\"POST\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 528,
       "length": 5,
       "value": "\"PUT\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 551,
       "length": 7,
       "value": "\"PATCH\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 577,
       "length": 8,
       "value": "\"DELETE\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 603,
       "length": 7,
       "value": "\"TRACE\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Models\/HTTPMethod.swift",
       "kind": "StringLiteral",
       "offset": 630,
       "length": 9,
       "value": "\"CONNECT\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 492,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 542,
       "length": 16,
       "value": "\"Content-Length\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 599,
       "length": 21,
       "value": "\"Content-Disposition\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 719,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 773,
       "length": 22,
       "value": "\"multipart\/form-data;\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 832,
       "length": 50,
       "value": "\"application\/x-www-form-urlencoded; charset=utf-8\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 914,
       "length": 21,
       "value": "\"application\/x-plist\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 1016,
       "length": 10,
       "value": "\"boundary\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 1061,
       "length": 11,
       "value": "\"form-data\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 1112,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Commons\/HTTPHeader.swift",
       "kind": "StringLiteral",
       "offset": 1153,
       "length": 10,
       "value": "\"filename\""
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/Core\/Extensions\/Data+CTN.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/Core\/Extensions\/Data+CTN.swift",
       "kind": "Array",
       "offset": 573,
       "length": 166,
       "value": "[0x30, 0x82, 0x01, 0x22, 0x30, 0x0d, 0x06, 0x09, 0x2a, 0x86, 0x48, 0x86, 0xf7, 0x0d, 0x01, 0x01, 0x01, 0x05, 0x00, 0x03, 0x82, 0x01, 0x0f, 0x00]"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/ProgressHandlerStore.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/URL Session\/ProgressHandlerStore.swift",
       "kind": "Dictionary",
       "offset": 700,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/db0e3ef1-7b73-5ddd-9353-4d9923cbbc7a\/build\/TinyNetworking\/Sources\/URL Session\/ProgressHandlerStore.swift",
+      "filePath": "\/Users\/pozitron\/bitbucket\/ios\/atlassian-bitbucket-pipelines-runner\/temp\/2ca64226-d8f5-533a-b4b2-26daa35f1467\/build\/TinyNetworking\/Sources\/URL Session\/ProgressHandlerStore.swift",
       "kind": "Array",
       "offset": 755,
       "length": 2,

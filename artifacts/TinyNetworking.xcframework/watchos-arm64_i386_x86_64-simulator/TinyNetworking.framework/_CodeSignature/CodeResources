@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		dtYBimTw70qLYzO4o/Tkxt4od4k=
+		bbfIwlEB5x2Je5jznrclOPHrsfo=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/i386-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		30vde+bKR4O9RDymT9jz9fskf+0=
+		VXarXthpXC/jcqXu5oPWmETURIo=
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		muOYpoa21O5mNzBLq81g3Wgsi28=
+		2WjURU9BHFdjbCaBworFSY2aJW8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -153,11 +153,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			dtYBimTw70qLYzO4o/Tkxt4od4k=
+			bbfIwlEB5x2Je5jznrclOPHrsfo=
 			</data>
 			<key>hash2</key>
 			<data>
-			ekQcNXZ8/F2kH2ojFxq1LGK5zABuCyKCMhZGoghp+8o=
+			6cTHy307qFyORwWCY1xlbPh9YlhgBl6GjF7ykJTBlc8=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
@@ -208,11 +208,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			30vde+bKR4O9RDymT9jz9fskf+0=
+			VXarXthpXC/jcqXu5oPWmETURIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			rOKqETGitHYAvwkbKN920xTfGLcO/TIYhjCGjrRo5tw=
+			Em7sHJBYpTqQQWf1eQR6RaP8+TmB/p0qZaiFH8r05AE=
 			</data>
 		</dict>
 		<key>Modules/TinyNetworking.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
@@ -263,11 +263,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muOYpoa21O5mNzBLq81g3Wgsi28=
+			2WjURU9BHFdjbCaBworFSY2aJW8=
 			</data>
 			<key>hash2</key>
 			<data>
-			WfGd99DjzEotP5R0asNLW8ggp9renCzL+ZAuJMLgYmY=
+			OOc22SFqQNu2LALxOwXuwf5iMBMYKz27YDqNumeg5qg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
