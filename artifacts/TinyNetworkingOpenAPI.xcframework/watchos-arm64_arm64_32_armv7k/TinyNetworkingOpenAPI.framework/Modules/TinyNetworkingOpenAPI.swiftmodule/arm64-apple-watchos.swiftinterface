@@ -1,0 +1,26 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.2.3 (swiftlang-6.2.3.3.21 clang-1700.6.3.2)
+// swift-module-flags: -target arm64-apple-watchos8.0 -enable-objc-interop -enable-library-evolution -swift-version 6 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -module-name TinyNetworkingOpenAPI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.3
+import Foundation
+import HTTPTypes
+import OpenAPIRuntime
+import Swift
+import TinyNetworking
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension TinyNetworking.URLSessionManager {
+  public var openAPITransport: TinyNetworkingOpenAPI.TinyNetworkingTransport {
+    get
+  }
+}
+final public class TinyNetworkingTransport : OpenAPIRuntime.ClientTransport {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(networkClient: TinyNetworking.URLSessionManager, maxRequestBodySize: Swift.Int? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func send(_ request: HTTPTypes.HTTPRequest, body: OpenAPIRuntime.HTTPBody?, baseURL: Foundation.URL, operationID: Swift.String) async throws -> (HTTPTypes.HTTPResponse, OpenAPIRuntime.HTTPBody?)
+  #endif
+  @objc deinit
+}

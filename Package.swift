@@ -1,4 +1,4 @@
-// swift-tools-version:5.10
+// swift-tools-version:6.1
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
@@ -9,9 +9,15 @@ let package = Package(
     products: [
         .library(
             name: "TinyNetworking",
-            targets: ["TinyNetworking"]),
+            targets: ["TinyNetworking"]
+        ),
+        .library(
+            name: "TinyNetworkingOpenAPI",
+            targets: ["TinyNetworkingOpenAPI"]
+        )
     ],
     targets: [
-        .binaryTarget(name: "TinyNetworking", path: "artifacts/TinyNetworking.xcframework")
+        .binaryTarget(name: "TinyNetworking", path: "artifacts/TinyNetworking.xcframework"),
+        .binaryTarget(name: "TinyNetworkingOpenAPI", path: "artifacts/TinyNetworkingOpenAPI.xcframework")
     ]
 )
