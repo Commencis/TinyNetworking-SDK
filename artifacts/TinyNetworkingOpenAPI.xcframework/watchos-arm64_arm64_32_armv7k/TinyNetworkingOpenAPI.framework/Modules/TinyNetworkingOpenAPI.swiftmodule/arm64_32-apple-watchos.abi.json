@@ -1,0 +1,327 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TinyNetworkingOpenAPI",
+    "printedName": "TinyNetworkingOpenAPI",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "TinyNetworking",
+        "printedName": "TinyNetworking",
+        "declKind": "Import",
+        "moduleName": "TinyNetworkingOpenAPI"
+      },
+      {
+        "kind": "Import",
+        "name": "OpenAPIRuntime",
+        "printedName": "OpenAPIRuntime",
+        "declKind": "Import",
+        "moduleName": "TinyNetworkingOpenAPI"
+      },
+      {
+        "kind": "Import",
+        "name": "HTTPTypes",
+        "printedName": "HTTPTypes",
+        "declKind": "Import",
+        "moduleName": "TinyNetworkingOpenAPI"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TinyNetworkingOpenAPI"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "TinyNetworkingTransport",
+        "printedName": "TinyNetworkingTransport",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(networkClient:maxRequestBodySize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TinyNetworkingTransport",
+                "printedName": "TinyNetworkingOpenAPI.TinyNetworkingTransport",
+                "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URLSessionManager",
+                "printedName": "TinyNetworking.URLSessionManager",
+                "usr": "s:14TinyNetworking17URLSessionManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC13networkClient18maxRequestBodySizeAC0aB017URLSessionManagerC_SiSgtcfc",
+            "mangledName": "$s21TinyNetworkingOpenAPI0aB9TransportC13networkClient18maxRequestBodySizeAC0aB017URLSessionManagerC_SiSgtcfc",
+            "moduleName": "TinyNetworkingOpenAPI",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "send",
+            "printedName": "send(_:body:baseURL:operationID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(HTTPTypes.HTTPResponse, OpenAPIRuntime.HTTPBody?)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPResponse",
+                    "printedName": "HTTPTypes.HTTPResponse",
+                    "usr": "s:9HTTPTypes12HTTPResponseV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OpenAPIRuntime.HTTPBody?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HTTPBody",
+                        "printedName": "OpenAPIRuntime.HTTPBody",
+                        "usr": "s:14OpenAPIRuntime8HTTPBodyC"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "HTTPRequest",
+                "printedName": "HTTPTypes.HTTPRequest",
+                "usr": "s:9HTTPTypes11HTTPRequestV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OpenAPIRuntime.HTTPBody?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HTTPBody",
+                    "printedName": "OpenAPIRuntime.HTTPBody",
+                    "usr": "s:14OpenAPIRuntime8HTTPBodyC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC4send_4body7baseURL11operationID9HTTPTypes12HTTPResponseV_0C10APIRuntime8HTTPBodyCSgtAH11HTTPRequestV_AN10Foundation0I0VSStYaKF",
+            "mangledName": "$s21TinyNetworkingOpenAPI0aB9TransportC4send_4body7baseURL11operationID9HTTPTypes12HTTPResponseV_0C10APIRuntime8HTTPBodyCSgtAH11HTTPRequestV_AN10Foundation0I0VSStYaKF",
+            "moduleName": "TinyNetworkingOpenAPI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC",
+        "mangledName": "$s21TinyNetworkingOpenAPI0aB9TransportC",
+        "moduleName": "TinyNetworkingOpenAPI",
+        "declAttributes": [
+          "AccessControl",
+          "Final"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ClientTransport",
+            "printedName": "ClientTransport",
+            "usr": "s:14OpenAPIRuntime15ClientTransportP",
+            "mangledName": "$s14OpenAPIRuntime15ClientTransportP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "URLSessionManager",
+        "printedName": "URLSessionManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "openAPITransport",
+            "printedName": "openAPITransport",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TinyNetworkingTransport",
+                "printedName": "TinyNetworkingOpenAPI.TinyNetworkingTransport",
+                "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:14TinyNetworking17URLSessionManagerC0aB7OpenAPIE16openAPITransportAD0aB9TransportCvp",
+            "mangledName": "$s14TinyNetworking17URLSessionManagerC0aB7OpenAPIE16openAPITransportAD0aB9TransportCvp",
+            "moduleName": "TinyNetworkingOpenAPI",
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "TinyNetworkingTransport",
+                    "printedName": "TinyNetworkingOpenAPI.TinyNetworkingTransport",
+                    "usr": "s:21TinyNetworkingOpenAPI0aB9TransportC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:14TinyNetworking17URLSessionManagerC0aB7OpenAPIE16openAPITransportAD0aB9TransportCvg",
+                "mangledName": "$s14TinyNetworking17URLSessionManagerC0aB7OpenAPIE16openAPITransportAD0aB9TransportCvg",
+                "moduleName": "TinyNetworkingOpenAPI",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:14TinyNetworking17URLSessionManagerC",
+        "mangledName": "$s14TinyNetworking17URLSessionManagerC",
+        "moduleName": "TinyNetworking",
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Actor",
+            "printedName": "Actor",
+            "usr": "s:ScA",
+            "mangledName": "$sScA"
+          },
+          {
+            "kind": "Conformance",
+            "name": "NetworkManagerProtocol",
+            "printedName": "NetworkManagerProtocol",
+            "usr": "s:14TinyNetworking22NetworkManagerProtocolP",
+            "mangledName": "$s14TinyNetworking22NetworkManagerProtocolP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/duvarbasie\/Desktop\/Projects\/Commencis\/TinyNetworking\/TinyNetworking\/OpenAPI\/OpenAPI+CTN.swift",
+      "kind": "IntegerLiteral",
+      "offset": 773,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/duvarbasie\/Desktop\/Projects\/Commencis\/TinyNetworking\/TinyNetworking\/OpenAPI\/OpenAPI+CTN.swift",
+      "kind": "IntegerLiteral",
+      "offset": 777,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/duvarbasie\/Desktop\/Projects\/Commencis\/TinyNetworking\/TinyNetworking\/OpenAPI\/OpenAPI+CTN.swift",
+      "kind": "IntegerLiteral",
+      "offset": 784,
+      "length": 4,
+      "value": "1024"
+    }
+  ]
+}
